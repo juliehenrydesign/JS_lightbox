@@ -1,8 +1,40 @@
 body {
+		font-family: "Arial";
+
+}
+
+#container {
+	
+}
+
+
+.outer-lightbox {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0px;
+	display: none;
+
+}
+
+.inner-lightbox {
+	text-align: center;
+
+}
+
+img {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
 
 }
 
 h1 {
-
+	font-size: 30px;
+	font-family: "Arial";
+	text-align: center;
 	
 }
+
